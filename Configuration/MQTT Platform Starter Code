@@ -1,0 +1,15 @@
+light:
+  - platform: mqtt
+    name: "Name of Light 1 in Home Assistant"
+    command_topic: "smartthings/Name of SmartThings Light 1/switch/cmd"
+    state_topic: "smartthings/Name of SmartThings Light 1/switch/state"
+    payload_on: "on"
+    payload_off: "off"
+    retain: true
+  - platform: mqtt
+    name: "Name of Light 2 in Home Assistant"
+    command_topic: "smartthings/Name of SmartThings Light 2/switch/cmd"
+    state_topic: "smartthings/Name of SmartThings Light 2/switch/state"
+    payload_on: "on"
+    payload_off: "off"
+    retain: true
